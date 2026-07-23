@@ -61,8 +61,6 @@ Clone or download this repository onto your machine:
 git clone <your-repository-url>
 
 ```
-
-
 2. **Launch the Site**
 Locate `Portfolio.html` in the root folder and open it with your preferred web browser.
 3. **Explore Sub-Projects**
