@@ -34,32 +34,6 @@ An interactive, mobile-friendly portfolio website developed during my **Frontend
 
 ---
 
-## 📂 Repository Architecture
-
-```text
-Task1 Portfolio/
-├── 📄 Portfolio.html            # Main portfolio markup
-├── 🎨 Portfolio.css             # Main portfolio styling
-├── 📝 README.md                 # Project documentation
-├── 🖼️ images/                   # Asset folder for portfolio media
-│   ├── Mee.jpeg
-│   ├── RealestateHOME.png
-│   ├── RealestateDETAILS.png
-│   └── Realestatepage.png
-│
-└── 📁 Realestate/               # Sub-project folder containing linked pages
-    ├── p5home.html
-    ├── p5home.css
-    ├── details.html
-    ├── details.css
-    ├── project3.html
-    ├── project3.css
-    └── 🖼️ images/                # Real estate assets
-
-```
-
----
-
 ## ⚡ Quick Start Guide
 
 1. **Obtain the Project Files**
