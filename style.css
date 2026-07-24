@@ -1,0 +1,4 @@
+body { font-family: sans-serif; margin: 0; padding: 20px; }
+nav ul { display: flex; list-style: none; gap: 20px; background: #6d6be7; color: #b45bab; padding: 10px; }
+section { padding: 40px; border-bottom: 1px solid #8292c5; }
+button { padding: 10px 20px; cursor: pointer; }
