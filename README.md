@@ -1,14 +1,8 @@
 # Portfolio-Landing-Page-HTML-CSS
 Newly structured version with a fresh tone and layout while keeping all your technical details intact:
-
----
-
 # 🚀 Responsive Portfolio Landing Page
 
 An interactive, mobile-friendly portfolio website developed during my **Frontend Development Internship** at **Think & Code Pvt Ltd**. Designed using modern web standards (**HTML5 & CSS3**), this project showcases web development skills, feature projects, and interactive UI components.
-
----
-
 ## 📸 Overview & Features
 
 * **Header Navigation:** Adaptive navbar optimized for smooth browsing across all device sizes.
