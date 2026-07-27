@@ -3,57 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Bisma Muqadas | Portfolio</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav>
-        <div class="logo" style="font-size: 2rem;"><strong>MYPORTFOLIO</strong></div>
-        <ul>
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="logo">BM<span>.</span></div>
+        <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-
-    <header>
-        <h1>Bisma Muqadas</h1>
-        <p>Web Developer</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate developer focusing on building clean and responsive websites.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Flexbox</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-container">
-            <div class="project-card">Project 1</div>
-            <div class="project-card">Project 2</div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1>Bisma Muqadas</h1>
+            <p class="tagline">Web Developer & Frontend Designer</p>
+            <p class="subtext">Passionate about crafting clean, modern, and high-performance websites.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message"></textarea>
-            <button type="submit">Send</button>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card">
+            <p>I am a dedicated web developer focused on transforming ideas into visually striking and highly functional web experiences. With a strong eye for clean design and user-centered development, I strive to write code that is as elegant as it is efficient.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Semantic markup & clean structure</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Modern layouts & custom animations</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-layer-group"></i>
+                <h3>Flexbox & Grid</h3>
+                <p>Fully responsive, mobile-first design</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Interactive Web App</h3>
+                    <p>A sleek, responsive interface designed for seamless user interaction and high performance.</p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Flexbox</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Portfolio Landing Page</h3>
+                    <p>A minimalist, modern portfolio website showcasing dynamic layout elements and animations.</p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Grid</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Let's Connect</h2>
+        <form class="contact-form">
+            <div class="input-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
         </form>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Bisma Muqadas. Built with passion & clean code.</p>
+    </footer>
 
 </body>
 </html>
